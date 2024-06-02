@@ -10,7 +10,7 @@ import Foundation
 class Predators{
     var apexPredators: [ApexPredator] = []
     
-    init(){
+    init() {
         decodeApexPredatorData()
     }
     func decodeApexPredatorData() {
